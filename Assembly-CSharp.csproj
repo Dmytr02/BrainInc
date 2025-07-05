@@ -47,8 +47,10 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\Document.cs" />
     <Compile Include="Assets\scripts\ObjectsController.cs" />
+    <Compile Include="Assets\scripts\ScanerScript.cs" />
     <Compile Include="Assets\scripts\ObjectStats.cs" />
     <Compile Include="Assets\scripts\Object.cs" />
+    <None Include="Assets\scaner.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
