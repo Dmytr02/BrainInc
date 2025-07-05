@@ -10,4 +10,5 @@ public class ObjectStats : ScriptableObject
     public float Satiety;
     public float ToxinLevel;
     public float Hydration;
+    public float Energy;
 }

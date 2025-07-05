@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: testObject
+  m_Name: Marijuana_drug
   m_EditorClassIdentifier: 
-  Mood: 0.12
-  Immunity: 0.06
-  Satiety: -0.19
-  ToxinLevel: 0.1
-  Hydration: -0.04
+  Mood: 0.09
+  Immunity: -0.08
+  Satiety: 0
+  ToxinLevel: 0.13
+  Hydration: 0
+  Energy: 0.15

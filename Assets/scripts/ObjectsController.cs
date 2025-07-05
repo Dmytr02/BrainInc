@@ -33,6 +33,12 @@ public class ObjectsController : MonoBehaviour
         sliderSatiety.value = 0.5f;
         sliderToxinLevel.value = 0.5f;
         sliderHydration.value = 0.5f;
+        
+        sliderMood.interactable = false;
+        sliderImmunity.interactable = false;
+        sliderSatiety.interactable = false;
+        sliderToxinLevel.interactable = false;
+        sliderHydration.interactable = false;
     }
 
     public static void createObject()
