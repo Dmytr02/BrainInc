@@ -69,7 +69,6 @@ public class ObjectsController : MonoBehaviour
 
     public static void createObject()
     {
-        
         I.objectPrefab.stats = I.objectStats[Random.Range(0, I.objectStats.Count)];
         I.objectPrefab.Quote = I.QuoteObj;
         I.objectActual = Instantiate(I.objectPrefab);

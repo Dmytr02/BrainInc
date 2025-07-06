@@ -41,7 +41,7 @@ public class Object : MonoBehaviour
     public void showQuote()
     {
         Quote.SetActive(true);
-        Invoke("hideQuote", 2);
+        Invoke("hideQuote", 4);
     }
     public void hideQuote()
     {
