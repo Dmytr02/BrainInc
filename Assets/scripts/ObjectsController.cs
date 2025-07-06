@@ -10,6 +10,7 @@ public class ObjectsController : MonoBehaviour
     [SerializeField] private Object objectPrefab;
     private Object objectActual;
     Slider MoodSlider;
+    [SerializeField] EventController eventController;
     [SerializeField] private Slider sliderMood;
     [SerializeField] private Slider sliderImmunity;
     [SerializeField] private Slider sliderSatiety;
@@ -43,18 +44,18 @@ public class ObjectsController : MonoBehaviour
 
     public static void createObject()
     {
+        I.objectPrefab.stats = I.objectStats[Random.Range(0, I.objectStats.Length)];
         I.objectActual = Instantiate(I.objectPrefab);
-        I.objectActual.stats = I.objectStats[Random.Range(0, I.objectStats.Length)];
     }
 
     public void onApproved()
     {
         I.objectActual.onApproved();
-        sliderMood.value += I.objectActual.stats.Mood;
-        sliderImmunity.value += I.objectActual.stats.Immunity;
-        sliderSatiety.value += I.objectActual.stats.Satiety;
-        sliderToxinLevel.value += I.objectActual.stats.ToxinLevel;
-        sliderHydration.value += I.objectActual.stats.Hydration;
+        sliderMood.value += I.objectActual.stats.Mood * eventController.eventData.Mood;
+        sliderImmunity.value += I.objectActual.stats.Immunity  * eventController.eventData.Immunity;
+        sliderSatiety.value += I.objectActual.stats.Satiety * eventController.eventData.Satiety;
+        sliderToxinLevel.value += I.objectActual.stats.ToxinLevel  * eventController.eventData.ToxinLevel;
+        sliderHydration.value += I.objectActual.stats.Hydration  * eventController.eventData.Hydration;
         
         createObject();
     }

@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 48f7c4631ab47494cbe75720a830f352, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,4 +121,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   documentPrefab: {fileID: -587262425941269588, guid: d584c7279b1f9da4e99a0a9d36930754, type: 3}
   animator: {fileID: 2493127574849431719}
-  stats: {fileID: 11400000, guid: ce4b995eb81b1c24483cbfa5a6023a04, type: 2}
+  stats: {fileID: 11400000, guid: 40614a6f0490a6c42870d6540dbc4138, type: 2}
