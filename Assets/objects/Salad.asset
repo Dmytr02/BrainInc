@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Salad
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 551069e78bb9194438f90a7901c726a1, type: 3}
+  spriteScan: {fileID: 21300000, guid: a34f4f4c122d8194a8c2e3a51ea1e64c, type: 3}
   Mood: -0.03
   Immunity: 0.08
   Satiety: 0.06
   ToxinLevel: -0.04
   Hydration: 0
   Energy: 0.04
+  docImage: {fileID: 21300000, guid: 6598b94c25956b14ca5c37ed845e233a, type: 3}
+  docName: Vegetable Salad
+  docDescription: Visibly fresh, made from the healthiest vegetables, with a drop
+    of mayonnaise and oil. But despite its vitamin-rich inner world, its mediocrity
+    stirs no real desire to eat it.
+  docOrigin: Grocery store near the office
+  docQuote: You really should invite me more often instead of those... ah, never
+    mind...
+  Next: {fileID: 11400000, guid: cc1b7b87e06e75d429703a8b8e3aaadb, type: 2}

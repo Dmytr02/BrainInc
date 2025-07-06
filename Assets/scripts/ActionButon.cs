@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class ActionButon : MonoBehaviour
@@ -13,10 +14,15 @@ public class ActionButon : MonoBehaviour
     [SerializeField] private Slider ToxinLevel;
     [SerializeField] private Slider Hydration;
     [SerializeField] private Slider Energy;
+
+    public int counter;
+    public UnityEvent<int> onUseAction =  new UnityEvent<int>();
     public void onClict()
     {
         if (_action.Energy + Energy.value > 0)
         {
+            counter++;
+            onUseAction.Invoke(counter);
             Mood.value += _action.Mood;
             Immunity.value += _action.Immunity;
             Satiety.value += _action.Satiety;

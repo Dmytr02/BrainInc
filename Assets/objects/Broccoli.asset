@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Broccoli
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7abaa45eb8eb30b4ebce29788a56a327, type: 3}
+  spriteScan: {fileID: 21300000, guid: 4bc33343c466b154293d082600a8fd12, type: 3}
   Mood: -0.06
   Immunity: 0.09
   Satiety: 0.05
   ToxinLevel: -0.06
   Hydration: 0
   Energy: 0.03
+  docImage: {fileID: 21300000, guid: fa0e928dbf974ce4aa35d0004b2ad281, type: 3}
+  docName: Broccoli
+  docDescription: "A strange green vegetable that doesn't inspire much trust at first
+    glance, yet it holds a treasure trove of beneficial nutrients. And while its
+    taste may be odd and unusual, there\u2019s something oddly captivating about
+    it."
+  docOrigin: Store shelf
+  docQuote: Workout, workout, healthy eating, workout, workout...
+  Next: {fileID: 11400000, guid: 185051bc1b9faaa4692618856fdf7634, type: 2}

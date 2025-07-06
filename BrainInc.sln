@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSDImporterCustomPacker", "PSDImporterCustomPacker.csproj", "{c674037c-eb8d-d17c-f504-e451428a1ad9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d4a6f4b8-c29d-61d1-bf19-a7ec6a7b3cbe}"
 EndProject
 Global
@@ -8,6 +10,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{c674037c-eb8d-d17c-f504-e451428a1ad9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c674037c-eb8d-d17c-f504-e451428a1ad9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d4a6f4b8-c29d-61d1-bf19-a7ec6a7b3cbe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d4a6f4b8-c29d-61d1-bf19-a7ec6a7b3cbe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

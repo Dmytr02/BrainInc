@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
+  m_Name: Salad 3
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 551069e78bb9194438f90a7901c726a1, type: 3}
+  spriteScan: {fileID: 21300000, guid: a34f4f4c122d8194a8c2e3a51ea1e64c, type: 3}
+  Mood: -0.03
+  Immunity: 0.08
+  Satiety: 0.06
+  ToxinLevel: -0.04
+  Hydration: 0
+  Energy: 0.04
+  docImage: {fileID: 21300000, guid: 6598b94c25956b14ca5c37ed845e233a, type: 3}
+  docName: Vegetable Salad
+  docDescription: "Crafted by the chef\u2019s skillful hands, every bite of this
+    salad is meant to bring otherworldly pleasure, combining health with taste. The
+    only thing keeping you from eating it is the high price of such delight..."
+  docOrigin: Restaurant
+  docQuote: "Let\u2019s see how much you\u2019re willing to pay for a healthy life..."
+  Next: {fileID: 0}

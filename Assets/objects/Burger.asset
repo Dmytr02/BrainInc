@@ -12,9 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Burger
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: f4d330a7ca528db4b85e42dbefa4441f, type: 3}
+  spriteScan: {fileID: 21300000, guid: b4182ab774842cd49b94f61db7510663, type: 3}
   Mood: 0.07
   Immunity: -0.06
   Satiety: 0.12
   ToxinLevel: 0.08
   Hydration: -0.03
   Energy: 0.02
+  docImage: {fileID: 21300000, guid: a2e5d7d9d288cb745afe45d61489e92c, type: 3}
+  docName: Burger
+  docDescription: After a hard day, this greasy big guy looks incredibly tempting...
+    And that smell... Better than any perfume.
+  docOrigin: Gas station
+  docQuote: "I\u2019m all yours... Just give me a try..."
+  Next: {fileID: 11400000, guid: 01692f090c78cd2439217954b7ea5027, type: 2}

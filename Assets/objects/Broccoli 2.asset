@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
+  m_Name: Broccoli 2
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7abaa45eb8eb30b4ebce29788a56a327, type: 3}
+  spriteScan: {fileID: 21300000, guid: 4bc33343c466b154293d082600a8fd12, type: 3}
+  Mood: -0.06
+  Immunity: 0.09
+  Satiety: 0.05
+  ToxinLevel: -0.06
+  Hydration: 0
+  Energy: 0.03
+  docImage: {fileID: 21300000, guid: fa0e928dbf974ce4aa35d0004b2ad281, type: 3}
+  docName: Broccoli
+  docDescription: "Boiled according to the secret recipe on the packaging, this broccoli
+    won\u2019t wait long to be eaten. It knows its worth and would rather spoil than
+    end up in the wrong hands\u2026 Pride is not something it lacks."
+  docOrigin: Pot
+  docQuote: "It\u2019s now or never!"
+  Next: {fileID: 11400000, guid: 0f7305c009a35364dac5dac54fb0d7ef, type: 2}
