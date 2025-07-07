@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Pill_2_drug
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 46205f740f170214ea9ca432f79a648c, type: 3}
+  spriteScan: {fileID: 21300000, guid: d8b703da10a0a4a4380d63cfaec0da79, type: 3}
   Mood: 0.12
   Immunity: -0.09
   Satiety: 0
   ToxinLevel: 0.15
   Hydration: 0
   Energy: 0.2
+  docImage: {fileID: 21300000, guid: 9c5840138c023ec4685ab3fc89b3b0a5, type: 3}
+  docName: Ecstasy
+  docDescription: "A companion to many parties, silently pulling people into its
+    web like a true spider. Not everyone makes it out \u2014 many remain trapped
+    in the nightmare of addiction for the rest of their short lives."
+  docOrigin: Bar
+  docQuote: "You and me, we\u2019re on the same vibe, bro."
+  Next: {fileID: 0}

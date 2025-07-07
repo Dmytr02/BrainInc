@@ -27,4 +27,5 @@ MonoBehaviour:
     he stands with surprising confidence."
   docOrigin: Small shop near the station
   docQuote: No risk, no feast.
+  hasVirus: 1
   Next: {fileID: 0}

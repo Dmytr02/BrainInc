@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Vitamin 2
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  spriteScan: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 9653cc147b434204ba90ecd85290b0fd, type: 3}
+  spriteScan: {fileID: 21300000, guid: be3ec0e25f1726a4d8f2b3e7d284daef, type: 3}
   Mood: 0.02
   Immunity: 0.05
   Satiety: 0
   ToxinLevel: -0.04
   Hydration: 0
   Energy: 0.03
-  docImage: {fileID: 0}
+  docImage: {fileID: 21300000, guid: 31ab47b3fa67aa847ada72b5c8ec089c, type: 3}
   docName: Vitamin D
   docDescription: "Warm and radiant, it fills the body with strength, quietly making
     it happier and more resilient. A person\u2019s life revolves around it \u2014

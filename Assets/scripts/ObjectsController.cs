@@ -13,12 +13,12 @@ public class ObjectsController : MonoBehaviour
     private Object objectActual;
     Slider MoodSlider;
     [SerializeField] EventController eventController;
-    [SerializeField] private Slider sliderMood;
-    [SerializeField] private Slider sliderImmunity;
-    [SerializeField] private Slider sliderSatiety;
-    [SerializeField] private Slider sliderToxinLevel;
-    [SerializeField] private Slider sliderHydration;
-    [SerializeField] private Slider sliderEnergy;
+    [SerializeField] public Slider sliderMood;
+    [SerializeField] public Slider sliderImmunity;
+    [SerializeField] public Slider sliderSatiety;
+    [SerializeField] public Slider sliderToxinLevel;
+    [SerializeField] public Slider sliderHydration;
+    [SerializeField] public Slider sliderEnergy;
 
 
     [SerializeField] public GameObject documentPanel;
@@ -30,9 +30,22 @@ public class ObjectsController : MonoBehaviour
     [SerializeField] private List<ObjectStats>  objectStats;
     
     [SerializeField] private Material scanMaterial;
+    [SerializeField] private Material virusMaterial;
+    
+    [SerializeField] private Sprite virusRed;
+    [SerializeField] private Sprite virusGreen;
+    [SerializeField] private Sprite virusEnpty;
     
     [SerializeField] private GameObject QuoteObj;
     [SerializeField] private TMP_Text QuoteText;
+
+    [SerializeField]private ObjectStats greenVirusStats;
+    [SerializeField] private ObjectStats redVirusStats;
+
+    private bool hasvirus = false;
+    
+    public static int rejectedCount = 0;
+    public static int acceptedCount = 0;
 
     public static ObjectsController I;
 
@@ -74,6 +87,9 @@ public class ObjectsController : MonoBehaviour
         I.objectActual = Instantiate(I.objectPrefab);
         
         I.scanMaterial.SetTexture("_IntersectTex", I.objectActual.stats.spriteScan.texture);
+        bool rand = Random.Range(0, 3)==0;
+        I.virusMaterial.SetTexture("_IntersectTex", I.objectActual.stats.hasVirus? I.virusRed.texture:rand?I.virusGreen.texture:I.virusEnpty.texture);
+        I.hasvirus = rand && !I.objectActual.stats.hasVirus;
 
         I.QuoteText.text = I.objectActual.stats.docQuote;
         I.docImage.sprite = I.objectActual.stats.docImage;
@@ -112,29 +128,32 @@ public class ObjectsController : MonoBehaviour
             else s += I.objectActual.stats.Energy + " Energy\n";;
         }
         I.docStatsText.text = s;
-        if (I.objectActual.stats.Next != null)
+        if (I.objectActual.stats.Next != null && !I.objectStats.Contains(I.objectActual.stats.Next))
         {
             I.objectStats.Add(I.objectActual.stats.Next);
         }
 
-        I.objectStats.Remove(I.objectActual.stats);
+        //I.objectStats.Remove(I.objectActual.stats);
     }
 
     public void onApproved()
     {
+        
+        acceptedCount ++;
         I.objectActual.onApproved();
-        sliderMood.value += I.objectActual.stats.Mood * eventController.eventData.Mood;
-        sliderImmunity.value += I.objectActual.stats.Immunity  * eventController.eventData.Immunity;
-        sliderSatiety.value += I.objectActual.stats.Satiety * eventController.eventData.Satiety;
-        sliderToxinLevel.value += I.objectActual.stats.ToxinLevel  * eventController.eventData.ToxinLevel;
-        sliderHydration.value += I.objectActual.stats.Hydration  * eventController.eventData.Hydration;
-        sliderEnergy.value += I.objectActual.stats.Energy * eventController.eventData.Energy;
+        sliderMood.value += (I.objectActual.stats.Mood+(I.hasvirus?greenVirusStats.Mood:I.objectActual.stats.hasVirus?redVirusStats.Mood:0)) * eventController.eventData.Mood;
+        sliderImmunity.value += (I.objectActual.stats.Immunity+(I.hasvirus?greenVirusStats.Immunity:I.objectActual.stats.hasVirus?redVirusStats.Immunity:0))  * eventController.eventData.Immunity;
+        sliderSatiety.value += (I.objectActual.stats.Satiety+(I.hasvirus?greenVirusStats.Satiety:I.objectActual.stats.hasVirus?redVirusStats.Satiety:0)) * eventController.eventData.Satiety;
+        sliderToxinLevel.value += (I.objectActual.stats.ToxinLevel+(I.hasvirus?greenVirusStats.ToxinLevel:I.objectActual.stats.hasVirus?redVirusStats.ToxinLevel:0))  * eventController.eventData.ToxinLevel;
+        sliderHydration.value += (I.objectActual.stats.Hydration+(I.hasvirus?greenVirusStats.Hydration:I.objectActual.stats.hasVirus?redVirusStats.Hydration:0))  * eventController.eventData.Hydration;
+        sliderEnergy.value += (I.objectActual.stats.Energy+(I.hasvirus?greenVirusStats.Energy:I.objectActual.stats.hasVirus?redVirusStats.Energy:0)) * eventController.eventData.Energy;
         
         createObject();
     }
     
     public void onRejection()
     {
+        rejectedCount ++;
         I.objectActual.onRejection();
         createObject();
     }

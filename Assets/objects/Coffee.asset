@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Coffee
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  spriteScan: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 938eaaf33d2d2024bbd655fe531b03ab, type: 3}
+  spriteScan: {fileID: 21300000, guid: 7dbc43a6f9a81e146ab27176695c711b, type: 3}
   Mood: 0.06
   Immunity: 0
   Satiety: 0
   ToxinLevel: 0.07
   Hydration: 0.05
   Energy: 0.1
-  docImage: {fileID: 0}
+  docImage: {fileID: 21300000, guid: 938eaaf33d2d2024bbd655fe531b03ab, type: 3}
   docName: Cup of Coffee
   docDescription: "Energy is her middle name. Chasing away sleepiness is her favorite
     game. She\u2019s not simple \u2014 her potential and flavor are revealed only
@@ -28,4 +28,5 @@ MonoBehaviour:
   docOrigin: Coffee machine
   docQuote: "Your life is bitter? Don\u2019t make me laugh \u2014 I\u2019ll show
     you real bitterness!"
-  Next: {fileID: 0}
+  hasVirus: 0
+  Next: {fileID: 11400000, guid: c51aebe58bfb7b34994bbbeaddd04f81, type: 2}

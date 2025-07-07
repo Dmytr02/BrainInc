@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Soda
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  spriteScan: {fileID: 0}
+  sprite: {fileID: 21300000, guid: c20b8d8a611edee4c961adc5659e42f3, type: 3}
+  spriteScan: {fileID: 21300000, guid: 45904d1d736770149920b6547cfccf7f, type: 3}
   Mood: 0.05
   Immunity: -0.05
   Satiety: 0
   ToxinLevel: 0.09
   Hydration: 0.08
   Energy: 0.03
-  docImage: {fileID: 0}
+  docImage: {fileID: 21300000, guid: d875d83be7292b44b8e51aec01727cb5, type: 3}
   docName: Soda
   docDescription: "No matter how hard your eyes try to ignore her, she\u2019s always
     been in sight. This is a tragic love story \u2014 full of waiting and silence...
     So what now \u2014 will she be left alone again?"
   docOrigin: Nearest fridge shelf
   docQuote: "Come on, just one sip\u2026"
-  Next: {fileID: 0}
+  hasVirus: 0
+  Next: {fileID: 11400000, guid: 646dfc3eabf8d7a4c8e1de592c9e056f, type: 2}

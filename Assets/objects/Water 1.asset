@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
+  m_Name: Water 1
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7dbb747bd36e40a438e456fada485d17, type: 3}
+  spriteScan: {fileID: 21300000, guid: 542dff4a78800604fbfd924ab0a832fa, type: 3}
+  Mood: 0
+  Immunity: 0
+  Satiety: 0
+  ToxinLevel: -0.1
+  Hydration: 0.12
+  Energy: 0.02
+  docImage: {fileID: 21300000, guid: 7392f3c38671d014c8d00a0d8a78dd57, type: 3}
+  docName: Bottle of Water
+  docDescription: "Among ordinary waters, she\u2019s different. Loud, bold, dangerous...
+    and vengeful. One wrong move, one sharp shake \u2014 and there\u2019s no stopping
+    her. Sprays and hissing \u2014 that\u2019s how she responds."
+  docOrigin: Store
+  docQuote: "I am no ordinary lady\u2026 Handle me with care!"
+  Next: {fileID: 0}

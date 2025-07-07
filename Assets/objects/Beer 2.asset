@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Beer 2
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  spriteScan: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 134ad9a34f3cb834a8998a2e5f179e14, type: 3}
+  spriteScan: {fileID: 21300000, guid: 45904d1d736770149920b6547cfccf7f, type: 3}
   Mood: 0.05
   Immunity: -0.08
   Satiety: 0
   ToxinLevel: 0.12
   Hydration: 0.05
   Energy: -0.05
-  docImage: {fileID: 0}
+  docImage: {fileID: 21300000, guid: 3d4423eed2329ed4bbd24f9010b26938, type: 3}
   docName: Beer
   docDescription: "A gift from the heart, pure and sincere \u2014 as innocent as
     a baby\u2019s tear\u2026 The real liquid gold."

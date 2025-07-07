@@ -20,6 +20,8 @@ public class ObjectStats : ScriptableObject
     public string docDescription;
     public string docOrigin;
     public string docQuote;
+    
+    public bool hasVirus;
 
     public ObjectStats Next;
 

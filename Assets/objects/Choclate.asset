@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Choclate
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 0a90ea93109d00d4f9d68bab5819504a, type: 3}
+  spriteScan: {fileID: 21300000, guid: 3431832415144c94c99048c939059800, type: 3}
   Mood: 0.09
   Immunity: -0.05
   Satiety: 0.05
   ToxinLevel: 0.06
   Hydration: 0
   Energy: 0.05
+  docImage: {fileID: 21300000, guid: 0a90ea93109d00d4f9d68bab5819504a, type: 3}
+  docName: Chocolate
+  docDescription: "People give her to say what they can\u2019t put into words. But
+    she doesn\u2019t need an occasion \u2014 boredom and a corner store are enough.
+    She knows: all it takes is being within reach at the right moment."
+  docOrigin: A gift to yourself, for no reason
+  docQuote: "Pretend you didn\u2019t want me. I\u2019m used to it."
+  hasVirus: 0
+  Next: {fileID: 11400000, guid: 47592aa64070de64c811d23b7b08e1ea, type: 2}

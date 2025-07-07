@@ -12,9 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Water
   m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 7b4c5f896dd8ffe4293c4cc341c22f8a, type: 3}
+  spriteScan: {fileID: 21300000, guid: 542dff4a78800604fbfd924ab0a832fa, type: 3}
   Mood: 0
   Immunity: 0
   Satiety: 0
   ToxinLevel: -0.1
   Hydration: 0.12
   Energy: 0.02
+  docImage: {fileID: 21300000, guid: 7cc3244b376689d489d243f603275980, type: 3}
+  docName: Bottle of Water
+  docDescription: "Just an ordinary bottle of water, like all the others\u2026 She
+    waited a long time in the vending machine, slowly moving forward, hoping someone
+    would finally buy her and grant her long-awaited freedom."
+  docOrigin: Office vending machine
+  docQuote: Could it be... am I really going to see the light?..
+  hasVirus: 0
+  Next: {fileID: 11400000, guid: 6a66b35147e71fb419989fe8e8513042, type: 2}

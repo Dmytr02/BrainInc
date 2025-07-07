@@ -7,6 +7,7 @@ using UnityEngine;
 public class ScanerScript : MonoBehaviour
 {
     public Material mat;
+    public Material mat2;
     [SerializeField] Transform targetTransform;
     [SerializeField] BoxCollider2D boxCollider;
     [SerializeField] float speed;
@@ -25,6 +26,7 @@ public class ScanerScript : MonoBehaviour
     void Update()
     {
         mat.SetMatrix("_SecondWorldMatrix", targetTransform.localToWorldMatrix.inverse);
+        mat2.SetMatrix("_SecondWorldMatrix", targetTransform.localToWorldMatrix.inverse);
         if (ofsertPosition != Vector3.zero)
         {
             transform.position = ofsertPosition + Camera.main.ScreenToWorldPoint(Input.mousePosition);

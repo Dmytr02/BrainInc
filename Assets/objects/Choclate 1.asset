@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
+  m_Name: Choclate 1
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 0a90ea93109d00d4f9d68bab5819504a, type: 3}
+  spriteScan: {fileID: 21300000, guid: 3431832415144c94c99048c939059800, type: 3}
+  Mood: 0.09
+  Immunity: -0.05
+  Satiety: 0.05
+  ToxinLevel: 0.06
+  Hydration: 0
+  Energy: 0.05
+  docImage: {fileID: 21300000, guid: 0a90ea93109d00d4f9d68bab5819504a, type: 3}
+  docName: Chocolate
+  docDescription: "On the outside \u2014 milky. On the inside \u2014 85% darkness.
+    People pick her by mistake, or in hopes of growing up. She doesn\u2019t want
+    to be liked. She wants to linger."
+  docOrigin: Grocery Store
+  docQuote: "You just haven\u2019t matured enough for my taste."
+  hasVirus: 0
+  Next: {fileID: 11400000, guid: ed634dff389f943408002c214ed1af85, type: 2}
