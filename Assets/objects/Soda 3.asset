@@ -10,22 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Vitamin
+  m_Name: Soda 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
-  Mood: 0.02
-  Immunity: 0.05
+  Mood: 0.05
+  Immunity: -0.05
   Satiety: 0
-  ToxinLevel: -0.04
-  Hydration: 0
+  ToxinLevel: 0.09
+  Hydration: 0.08
   Energy: 0.03
   docImage: {fileID: 0}
-  docName: Vitamin C
-  docDescription: "Once upon a time, sailors wouldn\u2019t dare leave the shore without
-    this vitamin, knowing that without a barrel of citrus on board, their voyage
-    might be the last one\u2026 with teeth. Thankfully, getting Vitamin C is much
-    easier now."
-  docOrigin: Bottle of effervescent tablets
-  docQuote: Smile more often :)
+  docName: Soda
+  docDescription: "You went out to buy bread... Accidentally passed the shelves...
+    Accidentally spotted the soda bottle... Accidentally stared too long\u2026"
+  docOrigin: Grocery run
+  docQuote: There are no accidents, darling ;)
   Next: {fileID: 0}

@@ -10,22 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Coffee
+  m_Name: Beer 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
-  Mood: 0.06
-  Immunity: 0
+  Mood: 0.05
+  Immunity: -0.08
   Satiety: 0
-  ToxinLevel: 0.07
+  ToxinLevel: 0.12
   Hydration: 0.05
-  Energy: 0.1
+  Energy: -0.05
   docImage: {fileID: 0}
-  docName: Cup of Coffee
-  docDescription: "Energy is her middle name. Chasing away sleepiness is her favorite
-    game. She\u2019s not simple \u2014 her potential and flavor are revealed only
-    to true connoisseurs. Those willing to walk the bitter path for a rewarding aftertaste."
-  docOrigin: Coffee machine
-  docQuote: "Your life is bitter? Don\u2019t make me laugh \u2014 I\u2019ll show
-    you real bitterness!"
+  docName: Beer
+  docDescription: "The source of good vibes, inspiration, and motivation. Every great
+    adventure starts with it \u2014 and ends at the table with new friends and one
+    more bottle. Beer \u2014 the golden cycle of life."
+  docOrigin: Unknown man on the street
+  docQuote: "It\u2019s storytime, my friend!"
   Next: {fileID: 0}

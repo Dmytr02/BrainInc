@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Fish
+  m_Name: Fish 2
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
@@ -22,10 +22,9 @@ MonoBehaviour:
   Energy: 0.05
   docImage: {fileID: 0}
   docName: Fish
-  docDescription: "When they caught her, she didn\u2019t resist. Not because she
-    gave up \u2014 she\u2019d already made peace in the deep. Silence became her
-    armor, the icy display her stage. Line: I\u2019m not panicking. I\u2019m just
-    lying here and thinking. "
-  docOrigin: Fishing Trip
-  docQuote: "I\u2019m not panicking. I\u2019m just lying here and thinking."
-  Next: {fileID: 11400000, guid: 0becc48cd398cb5438a8d4a26b105fac, type: 2}
+  docDescription: "She used to dream of crossing the ocean. Now she\u2019s swimming
+    in lemon, next to some fries. It\u2019s not the route she planned \u2014 but
+    she still got further than most."
+  docOrigin: Dinner Table
+  docQuote: "It\u2019s not how the story ends. It\u2019s how it\u2019s plated."
+  Next: {fileID: 11400000, guid: 63b7805304a1a3445a0b36a45b42698c, type: 2}

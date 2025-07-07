@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: French_fries
   m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  spriteScan: {fileID: 0}
   Mood: 0.05
   Immunity: -0.05
   Satiety: 0.07
   ToxinLevel: 0.09
   Hydration: 0.05
   Energy: 0.01
+  docImage: {fileID: 0}
+  docName: French Fries
+  docDescription: "The moment the oil boiled \u2014 that was her birth. She realized
+    that pain is part of becoming. Now she\u2019s an icon. No one remembers how it
+    all began."
+  docOrigin: "McDonald\u2019s"
+  docQuote: I know my worth, darling.
+  Next: {fileID: 0}

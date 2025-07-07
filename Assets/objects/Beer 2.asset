@@ -10,21 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Marijuana_drug
+  m_Name: Beer 2
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
-  Mood: 0.09
+  Mood: 0.05
   Immunity: -0.08
   Satiety: 0
-  ToxinLevel: 0.13
-  Hydration: 0
-  Energy: 0.15
+  ToxinLevel: 0.12
+  Hydration: 0.05
+  Energy: -0.05
   docImage: {fileID: 0}
-  docName: Marijuana
-  docDescription: An innocent-looking plant whose purpose forks in many directions.
-    While it may be a component in medical treatments, all too often it becomes the
-    first shaky step down the road to dependence.
-  docOrigin: A strange dark alley
-  docQuote: "I\u2019m like medicine \u2014 cross my heart!"
-  Next: {fileID: 0}
+  docName: Beer
+  docDescription: "A gift from the heart, pure and sincere \u2014 as innocent as
+    a baby\u2019s tear\u2026 The real liquid gold."
+  docOrigin: Best friend
+  docQuote: "Better take two, so you don\u2019t stumble later."
+  Next: {fileID: 11400000, guid: ffc0716a26973f24bac83bf4f86122ff, type: 2}

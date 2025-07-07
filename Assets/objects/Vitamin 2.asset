@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Vitamin
+  m_Name: Vitamin 2
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
@@ -21,11 +21,11 @@ MonoBehaviour:
   Hydration: 0
   Energy: 0.03
   docImage: {fileID: 0}
-  docName: Vitamin C
-  docDescription: "Once upon a time, sailors wouldn\u2019t dare leave the shore without
-    this vitamin, knowing that without a barrel of citrus on board, their voyage
-    might be the last one\u2026 with teeth. Thankfully, getting Vitamin C is much
-    easier now."
-  docOrigin: Bottle of effervescent tablets
-  docQuote: Smile more often :)
+  docName: Vitamin D
+  docDescription: "Warm and radiant, it fills the body with strength, quietly making
+    it happier and more resilient. A person\u2019s life revolves around it \u2014
+    just like the Earth around the Sun."
+  docOrigin: Dropper bottle
+  docQuote: "Sunny, yesterday my life was filled with rain\u2026 Sunny, you smiled
+    at me and really eased the pain\u2026"
   Next: {fileID: 0}

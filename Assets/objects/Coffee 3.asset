@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Coffee
+  m_Name: Coffee 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
@@ -22,10 +22,10 @@ MonoBehaviour:
   Energy: 0.1
   docImage: {fileID: 0}
   docName: Cup of Coffee
-  docDescription: "Energy is her middle name. Chasing away sleepiness is her favorite
-    game. She\u2019s not simple \u2014 her potential and flavor are revealed only
-    to true connoisseurs. Those willing to walk the bitter path for a rewarding aftertaste."
-  docOrigin: Coffee machine
-  docQuote: "Your life is bitter? Don\u2019t make me laugh \u2014 I\u2019ll show
-    you real bitterness!"
+  docDescription: "He doesn\u2019t ask for much. He won\u2019t wait for someone to
+    take a heroic trip to a caf\xE9. He doesn\u2019t need time or skill to prepare.
+    But in your darkest days, he\u2019ll be there \u2014 waiting in the forgotten
+    corner of the pantry."
+  docOrigin: 3-in-1 coffee packet
+  docQuote: "Patience\u2026 that\u2019s my motto."
   Next: {fileID: 0}

@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Marijuana_drug
+  m_Name: French_fries 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
-  Mood: 0.09
-  Immunity: -0.08
-  Satiety: 0
-  ToxinLevel: 0.13
-  Hydration: 0
-  Energy: 0.15
+  Mood: 0.05
+  Immunity: -0.05
+  Satiety: 0.07
+  ToxinLevel: 0.09
+  Hydration: 0.05
+  Energy: 0.01
   docImage: {fileID: 0}
-  docName: Marijuana
-  docDescription: An innocent-looking plant whose purpose forks in many directions.
-    While it may be a component in medical treatments, all too often it becomes the
-    first shaky step down the road to dependence.
-  docOrigin: A strange dark alley
-  docQuote: "I\u2019m like medicine \u2014 cross my heart!"
+  docName: French Fries
+  docDescription: "She lives fast. The moment she rolls onto the tray \u2014 she\u2019s
+    already cooling. She knows: if you\u2019re not hot, you\u2019re leftovers. And
+    leftovers get tossed."
+  docOrigin: "McDonald\u2019s"
+  docQuote: "Hurry up, I\u2019m way too busy!"
   Next: {fileID: 0}

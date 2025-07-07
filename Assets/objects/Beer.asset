@@ -12,9 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
   m_Name: Beer
   m_EditorClassIdentifier: 
+  sprite: {fileID: 0}
+  spriteScan: {fileID: 0}
   Mood: 0.05
   Immunity: -0.08
   Satiety: 0
   ToxinLevel: 0.12
   Hydration: 0.05
   Energy: -0.05
+  docImage: {fileID: 0}
+  docName: Beer
+  docDescription: "The best cure for bad moods, hard days, and tension. Natural,
+    light \u2014 like your thoughts and your future after just one sip... No words
+    needed \u2014 just beer."
+  docOrigin: Bar
+  docQuote: One pint a day keeps the stress away!
+  Next: {fileID: 11400000, guid: 55c93cb0b5e887d47bf533b54433e364, type: 2}

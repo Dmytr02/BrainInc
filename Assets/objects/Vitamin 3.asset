@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ecbc6b9b2f84d44cbd42a2e02ccb86e, type: 3}
-  m_Name: Vitamin
+  m_Name: Vitamin 3
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   spriteScan: {fileID: 0}
@@ -21,11 +21,10 @@ MonoBehaviour:
   Hydration: 0
   Energy: 0.03
   docImage: {fileID: 0}
-  docName: Vitamin C
-  docDescription: "Once upon a time, sailors wouldn\u2019t dare leave the shore without
-    this vitamin, knowing that without a barrel of citrus on board, their voyage
-    might be the last one\u2026 with teeth. Thankfully, getting Vitamin C is much
-    easier now."
-  docOrigin: Bottle of effervescent tablets
-  docQuote: Smile more often :)
+  docName: Vitamin B
+  docDescription: "Arguably the most important vitamin in any organism\u2019s life.
+    Energy regulation, healthy skin, nervous system... It deserves the title of \u201CEmployee
+    of the Year \u2014 and every year after that.\u201D"
+  docOrigin: Capsule
+  docQuote: "I\u2019ll keep working today, tomorrow, and the day after..."
   Next: {fileID: 0}
