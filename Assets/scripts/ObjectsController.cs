@@ -82,22 +82,34 @@ public class ObjectsController : MonoBehaviour
         string s = "Stats: \n";
         if (I.objectActual.stats.Mood != 0)
         {
-            s += I.objectActual.stats.Mood + " Mood\n";
+            if (I.objectActual.stats.Mood > 0)
+                s += I.objectActual.stats.Mood + " Mood\n";
+            else s += "<color=#992222>" + I.objectActual.stats.Mood + " Mood</color>\n";
         }if (I.objectActual.stats.Immunity != 0)
         {
-            s += I.objectActual.stats.Immunity + " Immunity\n";
+            if (I.objectActual.stats.Immunity < 0)
+                s += "<color=#992222>" + I.objectActual.stats.Immunity + " Immunity</color>\n";
+            else s += I.objectActual.stats.Immunity + " Immunity\n";
         }if (I.objectActual.stats.Satiety != 0)
         {
-            s += I.objectActual.stats.Satiety + " Satiety\n";
+            if (I.objectActual.stats.Satiety < 0)
+                s += "<color=#992222>" + I.objectActual.stats.Satiety + " Satiety\n</color>";
+            else s += I.objectActual.stats.Satiety +  " Satiety\n";
         }if (I.objectActual.stats.ToxinLevel != 0)
         {
-            s += I.objectActual.stats.ToxinLevel + " Toxin Level\n";
+            if (I.objectActual.stats.ToxinLevel < 0)
+                s += "<color=#992222>" + I.objectActual.stats.ToxinLevel + " Toxin Level\n</color>";
+            else s += I.objectActual.stats.ToxinLevel + " Toxin Level\n";
         }if (I.objectActual.stats.Hydration != 0)
         {
-            s += I.objectActual.stats.Hydration + " Hydration\n";
+            if (I.objectActual.stats.Hydration < 0)
+                s += "<color=#992222>" + I.objectActual.stats.Hydration + " Hydration\n</color>";
+            else s += I.objectActual.stats.Hydration + " Hydration\n";
         }if (I.objectActual.stats.Energy != 0)
         {
-            s += I.objectActual.stats.Energy + " Energy\n";
+            if (I.objectActual.stats.Energy < 0)
+                s += "<color=#992222>" + I.objectActual.stats.Energy + " Energy\n</color>";
+            else s += I.objectActual.stats.Energy + " Energy\n";;
         }
         I.docStatsText.text = s;
         if (I.objectActual.stats.Next != null)
