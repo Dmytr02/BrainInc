@@ -26,7 +26,10 @@ public class EventController : MonoBehaviour
         Clock.onDay.AddListener(onNextDay);
         
         eventList.Add(new eventData(2, 1, 1, 1, 1, 0.5f, 0.5f, 0.5f, 1, 1, 1, 0.5f, () => actionLearningForeignLanguageButon.counter>=4));
-        eventList.Add(new eventData(2, 1, 0.5f, 1, 1, 0.5f, 0.5f, 0.5f, 1, 1, 1, 0.5f, () => actionLearningForeignLanguageButon.counter>=4));
+        eventList.Add(new eventData(2, 1, 0.5f, 1, 1, 0.5f, 0.5f, 1, 0.5f, 1, 1, 0.5f, () => actionWorkOnTheProjectButon.counter>=4));
+        eventList.Add(new eventData(2, 2, 0.5f, 1, 1, 0.5f, 0.5f, 0.5f, 0.5f, 1, 1, 0.5f, () => actionGoingToTheGymButon.counter>=5));
+        eventList.Add(new eventData(2, 1, 1, 2, 1, 0.5f, 0.5f, 1, 1, 2, 1, 0.5f, () => actionDateButon.counter>=5));
+        eventList.Add(new eventData(1, 1, 0.5f, 1, 0.5f, 0.5f, 1, 1, 0.5f, 1, 0.5f, 0.5f, () => actionJoggingButon.counter>=5));
         eventData = new eventData();
     }
 
@@ -77,7 +80,8 @@ public class eventData // от него наследоватся
         
     }
 
-    public eventData(float Mood,  float Immunity, float Satiety, float ToxinLevel, float Hydration, float Energy, float elseMood, float elseImmunity, float elseSatiety, float elseToxinLevel, float elseHydration, float elseEnergy , Func<bool> isCheck)
+    public eventData(float Mood,  float Immunity, float Satiety, float ToxinLevel, float Hydration, float Energy, 
+        float elseMood, float elseImmunity, float elseSatiety, float elseToxinLevel, float elseHydration, float elseEnergy , Func<bool> isCheck)
     {
         this.Mood = Mood;
         this.Immunity = Immunity;

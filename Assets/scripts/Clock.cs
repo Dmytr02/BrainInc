@@ -7,21 +7,23 @@ using UnityEngine.Events;
 public class Clock : MonoBehaviour
 {
     int day = 0;
-    const float dayDuration = 180;
+    const float dayDuration = 10;
     private float timer = dayDuration;
     public static UnityEvent<int> onDay = new UnityEvent<int>();
     private Vector3 clockHand;
-    [SerializeField] private SpriteRenderer Shade;
-    [SerializeField]private Sprite ShadeOpen;
-    [SerializeField]private Sprite ShadeClose;
+    [SerializeField] public SpriteRenderer Shade;
+    [SerializeField]public Sprite ShadeOpen;
+    [SerializeField]public Sprite ShadeClose;
     [SerializeField]private Animator panelAnimator;
     [SerializeField] List<Vector3> calendar = new List<Vector3>();
     [SerializeField] private GameObject crossPrefab;
     
     public static List<Vector3> Calendar = new List<Vector3>();
+    public static Clock I;
 
     private void Awake()
     {
+        I = this;
         Calendar = calendar;
     }
 
