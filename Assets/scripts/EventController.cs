@@ -21,9 +21,10 @@ public class EventController : MonoBehaviour
         for (int i = 4; i < 31; i += Random.Range(5, 7))
         {
             eventDays.Add(i);
-            Instantiate(circlePrefab, Clock.Calendar[i], Quaternion.identity);
         }
         Clock.onDay.AddListener(onNextDay);
+        
+        Instantiate(circlePrefab, Clock.Calendar[eventDays[0]], Quaternion.identity);
         
         eventList.Add(new eventData(2, 1, 1, 1, 1, 0.5f, 0.5f, 0.5f, 1, 1, 1, 0.5f, () => actionLearningForeignLanguageButon.counter>=4));
         eventList.Add(new eventData(2, 1, 0.5f, 1, 1, 0.5f, 0.5f, 1, 0.5f, 1, 1, 0.5f, () => actionWorkOnTheProjectButon.counter>=4));
@@ -38,6 +39,7 @@ public class EventController : MonoBehaviour
         if (eventDays.Contains(day))
         {
             eventDays.Remove(day);
+            Instantiate(circlePrefab, Clock.Calendar[eventDays[0]], Quaternion.identity);
             int index = Random.Range(0, eventList.Count);
             if (eventList[index].isCheck.Invoke())
             {

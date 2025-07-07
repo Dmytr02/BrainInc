@@ -7,7 +7,7 @@ using UnityEngine.Events;
 public class Clock : MonoBehaviour
 {
     int day = 0;
-    const float dayDuration = 10;
+    const float dayDuration = 180;
     private float timer = dayDuration;
     public static UnityEvent<int> onDay = new UnityEvent<int>();
     private Vector3 clockHand;

@@ -53,9 +53,11 @@
     <Compile Include="Assets\scripts\ScanerScript.cs" />
     <Compile Include="Assets\scripts\ObjectStats.cs" />
     <Compile Include="Assets\scripts\Object.cs" />
+    <Compile Include="Assets\scripts\PanelInfo.cs" />
     <Compile Include="Assets\scripts\Light.cs" />
     <Compile Include="Assets\scripts\timeOn.cs" />
     <Compile Include="Assets\scripts\Clock.cs" />
+    <Compile Include="Assets\scripts\Quote.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
